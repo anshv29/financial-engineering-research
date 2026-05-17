@@ -18,20 +18,6 @@ a backtesting engine, and machine learning models (XGBoost + LSTM).
 
 ## Project Structure
 
-quant_research/
-├── src/
-│   ├── data_loader.py     # Pulls and stores market data via yfinance
-│   └── verify.py          # Data integrity checks
-├── notebooks/
-│   ├── 01_factor_engineering.ipynb    # Factor calculation and storage
-│   ├── 02_backtesting_engine.ipynb    # Portfolio backtesting and metrics
-│   ├── 03_machine_learning.ipynb      # XGBoost and LSTM models
-│   └── 04_tearsheet.ipynb             # Final research tearsheet
-├── data/
-│   └── tearsheet.png      # Final tearsheet output
-└── README.md
----
-
 ## Tech Stack
 
 - **Python 3.14**
